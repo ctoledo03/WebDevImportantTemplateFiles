@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border: none; /* Remove the default border */
+  border-bottom: 2px solid #000; /* Add a 2px solid black border at the bottom */
+}
+
+.centerDiv {
+  display: flex;
+  align-items: center;   
+  height: 45vh;   
+  width: 50vh;        
+  margin-top: 2%;
+  margin-bottom: 1%;
+  margin-left: 35%;
+  justify-content: center;
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
+
+.uncontrolled {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.uncontrolled__button {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 60px;
+}
